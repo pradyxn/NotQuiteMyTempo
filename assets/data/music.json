@@ -1,0 +1,864 @@
+{
+  "songs": [
+    {
+      "id": "all-the-love-kanye-west-&-andre-troutman",
+      "title": "All The Love",
+      "artist": "Kanye West & Andre Troutman",
+      "album": "Bully",
+      "albumArtist": null,
+      "genre": null,
+      "year": "2026",
+      "trackNumber": 1,
+      "discNumber": null,
+      "duration": 229,
+      "audio": "Music/All The Love - Kanye West Andre Troutman.mp3",
+      "cover": "assets/covers/bully.jpg"
+    },
+    {
+      "id": "distant-lover-(remastered-2003)-marvin-gaye",
+      "title": "Distant Lover (Remastered 2003)",
+      "artist": "Marvin Gaye",
+      "album": "Let's Get It On (Remastered 2003)",
+      "albumArtist": null,
+      "genre": null,
+      "year": null,
+      "trackNumber": null,
+      "discNumber": null,
+      "duration": 256,
+      "audio": "Music/Distant Lover (Remastered 2003) - Marvin Gaye.mp3",
+      "cover": "assets/covers/let's-get-it-on-(remastered-2003).jpg"
+    },
+    {
+      "id": "drugs-you-should-try-it-travis-scott",
+      "title": "Drugs You Should Try It",
+      "artist": "Travis Scott",
+      "album": "DAYS BEFORE RODEO",
+      "albumArtist": null,
+      "genre": null,
+      "year": null,
+      "trackNumber": null,
+      "discNumber": null,
+      "duration": 208,
+      "audio": "Music/Drugs You Should Try It - Travis Scott.mp3",
+      "cover": "assets/covers/days-before-rodeo.jpg"
+    },
+    {
+      "id": "ghost-town-(feat.-partynextdoor)-kanye-west",
+      "title": "Ghost Town (feat. PARTYNEXTDOOR)",
+      "artist": "Kanye West",
+      "album": "ye",
+      "albumArtist": null,
+      "genre": null,
+      "year": null,
+      "trackNumber": null,
+      "discNumber": null,
+      "duration": 271,
+      "audio": "Music/Ghost Town (feat. PARTYNEXTDOOR) - Kanye West.mp3",
+      "cover": "assets/covers/ye.jpg"
+    },
+    {
+      "id": "heartbreaker-justin-bieber",
+      "title": "Heartbreaker",
+      "artist": "Justin Bieber",
+      "album": "Journals",
+      "albumArtist": null,
+      "genre": null,
+      "year": null,
+      "trackNumber": null,
+      "discNumber": null,
+      "duration": 262,
+      "audio": "Music/Heartbreaker - Justin Bieber.mp3",
+      "cover": "assets/covers/journals.jpg"
+    },
+    {
+      "id": "heaven-can-wait-michael-jackson",
+      "title": "Heaven Can Wait",
+      "artist": "Michael Jackson",
+      "album": "Invincible",
+      "albumArtist": null,
+      "genre": null,
+      "year": null,
+      "trackNumber": null,
+      "discNumber": null,
+      "duration": 288,
+      "audio": "Music/Heaven Can Wait - Michael Jackson.mp3",
+      "cover": "assets/covers/invincible.jpg"
+    },
+    {
+      "id": "homecoming-(feat.-chris-martin)-kanye-west",
+      "title": "Homecoming (feat. Chris Martin)",
+      "artist": "Kanye West",
+      "album": "Graduation",
+      "albumArtist": null,
+      "genre": null,
+      "year": null,
+      "trackNumber": null,
+      "discNumber": null,
+      "duration": 203,
+      "audio": "Music/Homecoming (feat. Chris Martin) - Kanye West.mp3",
+      "cover": "assets/covers/graduation.jpg"
+    },
+    {
+      "id": "hours-in-silence-drake,-21-savage",
+      "title": "Hours In Silence",
+      "artist": "Drake, 21 Savage",
+      "album": "Her Loss",
+      "albumArtist": null,
+      "genre": null,
+      "year": null,
+      "trackNumber": null,
+      "discNumber": null,
+      "duration": 399,
+      "audio": "Music/Hours In Silence - Drake, 21 Savage.mp3",
+      "cover": "assets/covers/her-loss.jpg"
+    },
+    {
+      "id": "i-feel-it-coming-(feat.-daft-punk)-ザ・ウィークエンド",
+      "title": "I Feel It Coming (feat. Daft Punk)",
+      "artist": "ザ・ウィークエンド",
+      "album": "Starboy",
+      "albumArtist": null,
+      "genre": null,
+      "year": null,
+      "trackNumber": null,
+      "discNumber": null,
+      "duration": 269,
+      "audio": "Music/I Feel It Coming (feat. Daft Punk) - The Weeknd.mp3",
+      "cover": "assets/covers/starboy.jpg"
+    },
+    {
+      "id": "la-mentira-luis-miguel",
+      "title": "La Mentira",
+      "artist": "Luis Miguel",
+      "album": "Romance",
+      "albumArtist": null,
+      "genre": null,
+      "year": null,
+      "trackNumber": null,
+      "discNumber": null,
+      "duration": 226,
+      "audio": "Music/La Mentira - Luis Miguel.mp3",
+      "cover": "assets/covers/romance.jpg"
+    },
+    {
+      "id": "let-go-aaron-may",
+      "title": "Let Go",
+      "artist": "Aaron May",
+      "album": "Chase",
+      "albumArtist": null,
+      "genre": null,
+      "year": null,
+      "trackNumber": null,
+      "discNumber": null,
+      "duration": 176,
+      "audio": "Music/Let Go - Aaron May.mp3",
+      "cover": "assets/covers/chase.jpg"
+    },
+    {
+      "id": "m-a-k-e-i-t-t-o-t-h-e-m-o-r-n-i-n-g-partynextdoor",
+      "title": "M a k e  I t  T o  T h e  M o r n i n g",
+      "artist": "PARTYNEXTDOOR",
+      "album": "PARTYNEXTDOOR 4 (P4)",
+      "albumArtist": null,
+      "genre": null,
+      "year": null,
+      "trackNumber": null,
+      "discNumber": null,
+      "duration": 168,
+      "audio": "Music/M a k e  I t  T o  T h e  M o r n i n g - PARTYNEXTDOOR.mp3",
+      "cover": "assets/covers/partynextdoor-4-(p4).jpg"
+    },
+    {
+      "id": "maria-i'm-drunk-(feat.-justin-bieber-&-young-thug)-travis-scott",
+      "title": "Maria I'm Drunk (feat. Justin Bieber & Young Thug)",
+      "artist": "Travis Scott",
+      "album": "Rodeo",
+      "albumArtist": null,
+      "genre": null,
+      "year": null,
+      "trackNumber": null,
+      "discNumber": null,
+      "duration": 349,
+      "audio": "Music/Maria I'm Drunk (feat. Justin Bieber & Young Thug) - Travis Scott.mp3",
+      "cover": "assets/covers/rodeo.jpg"
+    },
+    {
+      "id": "marvins-room-drake",
+      "title": "Marvins Room",
+      "artist": "Drake",
+      "album": "Take Care (Deluxe Version)",
+      "albumArtist": null,
+      "genre": null,
+      "year": null,
+      "trackNumber": null,
+      "discNumber": null,
+      "duration": 347,
+      "audio": "Music/Marvins Room - Drake.mp3",
+      "cover": "assets/covers/take-care-(deluxe-version).jpg"
+    },
+    {
+      "id": "nights-frank-ocean",
+      "title": "Nights",
+      "artist": "Frank Ocean",
+      "album": "Blonde",
+      "albumArtist": null,
+      "genre": null,
+      "year": null,
+      "trackNumber": null,
+      "discNumber": null,
+      "duration": 307,
+      "audio": "Music/Nights - Frank Ocean.mp3",
+      "cover": "assets/covers/blonde.jpg"
+    },
+    {
+      "id": "no.-1-party-anthem-arctic-monkeys",
+      "title": "No. 1 Party Anthem",
+      "artist": "Arctic Monkeys",
+      "album": "AM",
+      "albumArtist": null,
+      "genre": null,
+      "year": null,
+      "trackNumber": null,
+      "discNumber": null,
+      "duration": 243,
+      "audio": "Music/No. 1 Party Anthem - Arctic Monkeys.mp3",
+      "cover": "assets/covers/am.jpg"
+    },
+    {
+      "id": "one-beer-mf-doom",
+      "title": "One Beer",
+      "artist": "MF DOOM",
+      "album": "MM..FOOD",
+      "albumArtist": null,
+      "genre": null,
+      "year": null,
+      "trackNumber": null,
+      "discNumber": null,
+      "duration": 258,
+      "audio": "Music/One Beer - MF DOOM.mp3",
+      "cover": "assets/covers/mm..food.jpg"
+    },
+    {
+      "id": "pink-matter-(feat.-andré-3000)-frank-ocean",
+      "title": "Pink Matter (feat. André 3000)",
+      "artist": "Frank Ocean",
+      "album": "channel ORANGE",
+      "albumArtist": null,
+      "genre": null,
+      "year": null,
+      "trackNumber": null,
+      "discNumber": null,
+      "duration": 268,
+      "audio": "Music/Pink Matter (feat. André 3000) - Frank Ocean.mp3",
+      "cover": "assets/covers/channel-orange.jpg"
+    },
+    {
+      "id": "poetic-justice-(feat.-drake)-kendrick-lamar",
+      "title": "Poetic Justice (feat. Drake)",
+      "artist": "Kendrick Lamar",
+      "album": "good kid, m.A.A.d city (Deluxe)",
+      "albumArtist": null,
+      "genre": null,
+      "year": null,
+      "trackNumber": null,
+      "discNumber": null,
+      "duration": 300,
+      "audio": "Music/Poetic Justice (feat. Drake) - Kendrick Lamar.mp3",
+      "cover": "assets/covers/good-kid,-m.a.a.d-city-(deluxe).jpg"
+    },
+    {
+      "id": "poison-brent-faiyaz",
+      "title": "Poison",
+      "artist": "Brent Faiyaz",
+      "album": "Poison - Single",
+      "albumArtist": null,
+      "genre": null,
+      "year": null,
+      "trackNumber": null,
+      "discNumber": null,
+      "duration": 305,
+      "audio": "Music/Poison - Brent Faiyaz.mp3",
+      "cover": "assets/covers/poison-single.jpg"
+    },
+    {
+      "id": "praise-the-lord-(da-shine)-[feat.-skepta]-a$ap-rocky",
+      "title": "Praise The Lord (da Shine) [feat. Skepta]",
+      "artist": "A$ap Rocky",
+      "album": "Testing",
+      "albumArtist": null,
+      "genre": null,
+      "year": "2026",
+      "trackNumber": 1,
+      "discNumber": null,
+      "duration": 205,
+      "audio": "Music/Praise The Lord da Shine- Asap Rocky.mp3",
+      "cover": "assets/covers/testing.jpg"
+    },
+    {
+      "id": "purple-rain-prince-&-the-revolution",
+      "title": "Purple Rain",
+      "artist": "Prince & The Revolution",
+      "album": "Purple Rain",
+      "albumArtist": null,
+      "genre": null,
+      "year": null,
+      "trackNumber": null,
+      "discNumber": null,
+      "duration": 521,
+      "audio": "Music/Purple Rain - Prince & The Revolution.mp3",
+      "cover": "assets/covers/purple-rain.jpg"
+    },
+    {
+      "id": "raindance-dave,-tems",
+      "title": "Raindance",
+      "artist": "Dave, Tems",
+      "album": "The Boy Who Played the Harp",
+      "albumArtist": null,
+      "genre": null,
+      "year": null,
+      "trackNumber": null,
+      "discNumber": null,
+      "duration": 219,
+      "audio": "Music/Raindance - Dave, Tems.mp3",
+      "cover": "assets/covers/the-boy-who-played-the-harp.jpg"
+    },
+    {
+      "id": "rather-lie-playboi-carti,-the-weeknd",
+      "title": "RATHER LIE",
+      "artist": "Playboi Carti, The Weeknd",
+      "album": "MUSIC - SORRY 4 DA WAIT",
+      "albumArtist": null,
+      "genre": null,
+      "year": null,
+      "trackNumber": null,
+      "discNumber": null,
+      "duration": 209,
+      "audio": "Music/RATHER LIE - Playboi Carti, The Weeknd.mp3",
+      "cover": "assets/covers/music-sorry-4-da-wait.jpg"
+    },
+    {
+      "id": "slow-dancing-in-the-dark-joji",
+      "title": "SLOW DANCING IN THE DARK",
+      "artist": "Joji",
+      "album": "BALLADS 1",
+      "albumArtist": null,
+      "genre": null,
+      "year": null,
+      "trackNumber": null,
+      "discNumber": null,
+      "duration": 209,
+      "audio": "Music/SLOW DANCING IN THE DARK - Joji.mp3",
+      "cover": "assets/covers/ballads-1.jpg"
+    },
+    {
+      "id": "stateside-(with-zara-larsson)-pinkpantheress",
+      "title": "Stateside (with Zara Larsson)",
+      "artist": "PinkPantheress",
+      "album": "Fancy Some More?",
+      "albumArtist": null,
+      "genre": null,
+      "year": null,
+      "trackNumber": null,
+      "discNumber": null,
+      "duration": 177,
+      "audio": "Music/Stateside (with Zara Larsson) - PinkPantheress.mp3",
+      "cover": "assets/covers/fancy-some-more.jpg"
+    },
+    {
+      "id": "tbh-partynextdoor",
+      "title": "TBH",
+      "artist": "PARTYNEXTDOOR",
+      "album": "PARTYNEXTDOOR",
+      "albumArtist": null,
+      "genre": null,
+      "year": null,
+      "trackNumber": null,
+      "discNumber": null,
+      "duration": 123,
+      "audio": "Music/TBH - PARTYNEXTDOOR.mp3",
+      "cover": "assets/covers/partynextdoor.jpg"
+    },
+    {
+      "id": "the-party-&-the-after-party-the-weeknd",
+      "title": "The Party & The After Party",
+      "artist": "The Weeknd",
+      "album": "Trilogy",
+      "albumArtist": null,
+      "genre": null,
+      "year": null,
+      "trackNumber": null,
+      "discNumber": null,
+      "duration": 459,
+      "audio": "Music/The Party & The After Party - The Weeknd.mp3",
+      "cover": "assets/covers/trilogy.jpg"
+    },
+    {
+      "id": "the-real-her-(feat.-lil-wayne-&-andre-3000)-drake",
+      "title": "The Real Her (feat. Lil Wayne & Andre 3000)",
+      "artist": "Drake",
+      "album": "Take Care (Deluxe Version)",
+      "albumArtist": null,
+      "genre": null,
+      "year": null,
+      "trackNumber": null,
+      "discNumber": null,
+      "duration": 321,
+      "audio": "Music/The Real Her (feat. Lil Wayne & Andre 3000) - Drake.mp3",
+      "cover": "assets/covers/take-care-(deluxe-version).jpg"
+    },
+    {
+      "id": "trust-issues-drake",
+      "title": "Trust Issues",
+      "artist": "Drake",
+      "album": "Care Package",
+      "albumArtist": null,
+      "genre": null,
+      "year": null,
+      "trackNumber": null,
+      "discNumber": null,
+      "duration": 280,
+      "audio": "Music/Trust Issues - Drake.mp3",
+      "cover": "assets/covers/care-package.jpg"
+    },
+    {
+      "id": "wat's-wrong-(feat.-zacari-&-kendrick-lamar)-isaiah-rashad",
+      "title": "Wat's Wrong (feat. Zacari & Kendrick Lamar)",
+      "artist": "Isaiah Rashad",
+      "album": "The Sun's Tirade",
+      "albumArtist": null,
+      "genre": null,
+      "year": "2026",
+      "trackNumber": 1,
+      "discNumber": null,
+      "duration": 330,
+      "audio": "Music/Wats Wrong feat Zacari Kendrick Lamar - Isaiah Rashad.mp3",
+      "cover": "assets/covers/the-sun's-tirade.jpg"
+    },
+    {
+      "id": "white-ferrari-frank-ocean",
+      "title": "White Ferrari",
+      "artist": "Frank Ocean",
+      "album": "Blonde",
+      "albumArtist": null,
+      "genre": null,
+      "year": null,
+      "trackNumber": null,
+      "discNumber": null,
+      "duration": 248,
+      "audio": "Music/White Ferrari - Frank Ocean.mp3",
+      "cover": "assets/covers/blonde.jpg"
+    },
+    {
+      "id": "wicked-games-the-weeknd",
+      "title": "Wicked Games",
+      "artist": "The Weeknd",
+      "album": "Trilogy",
+      "albumArtist": null,
+      "genre": null,
+      "year": null,
+      "trackNumber": null,
+      "discNumber": null,
+      "duration": 323,
+      "audio": "Music/Wicked Games - The Weeknd.mp3",
+      "cover": "assets/covers/trilogy.jpg"
+    }
+  ],
+  "albums": [
+    {
+      "id": "bully",
+      "title": "Bully",
+      "artist": "Kanye West & Andre Troutman",
+      "cover": "assets/covers/bully.jpg",
+      "year": "2026",
+      "genre": null
+    },
+    {
+      "id": "let's-get-it-on-(remastered-2003)",
+      "title": "Let's Get It On (Remastered 2003)",
+      "artist": "Marvin Gaye",
+      "cover": "assets/covers/let's-get-it-on-(remastered-2003).jpg",
+      "year": null,
+      "genre": null
+    },
+    {
+      "id": "days-before-rodeo",
+      "title": "DAYS BEFORE RODEO",
+      "artist": "Travis Scott",
+      "cover": "assets/covers/days-before-rodeo.jpg",
+      "year": null,
+      "genre": null
+    },
+    {
+      "id": "ye",
+      "title": "ye",
+      "artist": "Kanye West",
+      "cover": "assets/covers/ye.jpg",
+      "year": null,
+      "genre": null
+    },
+    {
+      "id": "journals",
+      "title": "Journals",
+      "artist": "Justin Bieber",
+      "cover": "assets/covers/journals.jpg",
+      "year": null,
+      "genre": null
+    },
+    {
+      "id": "invincible",
+      "title": "Invincible",
+      "artist": "Michael Jackson",
+      "cover": "assets/covers/invincible.jpg",
+      "year": null,
+      "genre": null
+    },
+    {
+      "id": "graduation",
+      "title": "Graduation",
+      "artist": "Kanye West",
+      "cover": "assets/covers/graduation.jpg",
+      "year": null,
+      "genre": null
+    },
+    {
+      "id": "her-loss",
+      "title": "Her Loss",
+      "artist": "Drake, 21 Savage",
+      "cover": "assets/covers/her-loss.jpg",
+      "year": null,
+      "genre": null
+    },
+    {
+      "id": "starboy",
+      "title": "Starboy",
+      "artist": "ザ・ウィークエンド",
+      "cover": "assets/covers/starboy.jpg",
+      "year": null,
+      "genre": null
+    },
+    {
+      "id": "romance",
+      "title": "Romance",
+      "artist": "Luis Miguel",
+      "cover": "assets/covers/romance.jpg",
+      "year": null,
+      "genre": null
+    },
+    {
+      "id": "chase",
+      "title": "Chase",
+      "artist": "Aaron May",
+      "cover": "assets/covers/chase.jpg",
+      "year": null,
+      "genre": null
+    },
+    {
+      "id": "partynextdoor-4-(p4)",
+      "title": "PARTYNEXTDOOR 4 (P4)",
+      "artist": "PARTYNEXTDOOR",
+      "cover": "assets/covers/partynextdoor-4-(p4).jpg",
+      "year": null,
+      "genre": null
+    },
+    {
+      "id": "rodeo",
+      "title": "Rodeo",
+      "artist": "Travis Scott",
+      "cover": "assets/covers/rodeo.jpg",
+      "year": null,
+      "genre": null
+    },
+    {
+      "id": "take-care-(deluxe-version)",
+      "title": "Take Care (Deluxe Version)",
+      "artist": "Drake",
+      "cover": "assets/covers/take-care-(deluxe-version).jpg",
+      "year": null,
+      "genre": null
+    },
+    {
+      "id": "blonde",
+      "title": "Blonde",
+      "artist": "Frank Ocean",
+      "cover": "assets/covers/blonde.jpg",
+      "year": null,
+      "genre": null
+    },
+    {
+      "id": "am",
+      "title": "AM",
+      "artist": "Arctic Monkeys",
+      "cover": "assets/covers/am.jpg",
+      "year": null,
+      "genre": null
+    },
+    {
+      "id": "mm..food",
+      "title": "MM..FOOD",
+      "artist": "MF DOOM",
+      "cover": "assets/covers/mm..food.jpg",
+      "year": null,
+      "genre": null
+    },
+    {
+      "id": "channel-orange",
+      "title": "channel ORANGE",
+      "artist": "Frank Ocean",
+      "cover": "assets/covers/channel-orange.jpg",
+      "year": null,
+      "genre": null
+    },
+    {
+      "id": "good-kid,-m.a.a.d-city-(deluxe)",
+      "title": "good kid, m.A.A.d city (Deluxe)",
+      "artist": "Kendrick Lamar",
+      "cover": "assets/covers/good-kid,-m.a.a.d-city-(deluxe).jpg",
+      "year": null,
+      "genre": null
+    },
+    {
+      "id": "poison-single",
+      "title": "Poison - Single",
+      "artist": "Brent Faiyaz",
+      "cover": "assets/covers/poison-single.jpg",
+      "year": null,
+      "genre": null
+    },
+    {
+      "id": "testing",
+      "title": "Testing",
+      "artist": "A$ap Rocky",
+      "cover": "assets/covers/testing.jpg",
+      "year": "2026",
+      "genre": null
+    },
+    {
+      "id": "purple-rain",
+      "title": "Purple Rain",
+      "artist": "Prince & The Revolution",
+      "cover": "assets/covers/purple-rain.jpg",
+      "year": null,
+      "genre": null
+    },
+    {
+      "id": "the-boy-who-played-the-harp",
+      "title": "The Boy Who Played the Harp",
+      "artist": "Dave, Tems",
+      "cover": "assets/covers/the-boy-who-played-the-harp.jpg",
+      "year": null,
+      "genre": null
+    },
+    {
+      "id": "music-sorry-4-da-wait",
+      "title": "MUSIC - SORRY 4 DA WAIT",
+      "artist": "Playboi Carti, The Weeknd",
+      "cover": "assets/covers/music-sorry-4-da-wait.jpg",
+      "year": null,
+      "genre": null
+    },
+    {
+      "id": "ballads-1",
+      "title": "BALLADS 1",
+      "artist": "Joji",
+      "cover": "assets/covers/ballads-1.jpg",
+      "year": null,
+      "genre": null
+    },
+    {
+      "id": "fancy-some-more",
+      "title": "Fancy Some More?",
+      "artist": "PinkPantheress",
+      "cover": "assets/covers/fancy-some-more.jpg",
+      "year": null,
+      "genre": null
+    },
+    {
+      "id": "partynextdoor",
+      "title": "PARTYNEXTDOOR",
+      "artist": "PARTYNEXTDOOR",
+      "cover": "assets/covers/partynextdoor.jpg",
+      "year": null,
+      "genre": null
+    },
+    {
+      "id": "trilogy",
+      "title": "Trilogy",
+      "artist": "The Weeknd",
+      "cover": "assets/covers/trilogy.jpg",
+      "year": null,
+      "genre": null
+    },
+    {
+      "id": "care-package",
+      "title": "Care Package",
+      "artist": "Drake",
+      "cover": "assets/covers/care-package.jpg",
+      "year": null,
+      "genre": null
+    },
+    {
+      "id": "the-sun's-tirade",
+      "title": "The Sun's Tirade",
+      "artist": "Isaiah Rashad",
+      "cover": "assets/covers/the-sun's-tirade.jpg",
+      "year": "2026",
+      "genre": null
+    }
+  ],
+  "artists": [
+    {
+      "id": "kanye-west-&-andre-troutman",
+      "name": "Kanye West & Andre Troutman",
+      "cover": "assets/covers/bully.jpg",
+      "genre": null
+    },
+    {
+      "id": "marvin-gaye",
+      "name": "Marvin Gaye",
+      "cover": "assets/covers/let's-get-it-on-(remastered-2003).jpg",
+      "genre": null
+    },
+    {
+      "id": "travis-scott",
+      "name": "Travis Scott",
+      "cover": "assets/covers/days-before-rodeo.jpg",
+      "genre": null
+    },
+    {
+      "id": "kanye-west",
+      "name": "Kanye West",
+      "cover": "assets/covers/ye.jpg",
+      "genre": null
+    },
+    {
+      "id": "justin-bieber",
+      "name": "Justin Bieber",
+      "cover": "assets/covers/journals.jpg",
+      "genre": null
+    },
+    {
+      "id": "michael-jackson",
+      "name": "Michael Jackson",
+      "cover": "assets/covers/invincible.jpg",
+      "genre": null
+    },
+    {
+      "id": "drake,-21-savage",
+      "name": "Drake, 21 Savage",
+      "cover": "assets/covers/her-loss.jpg",
+      "genre": null
+    },
+    {
+      "id": "ザ・ウィークエンド",
+      "name": "ザ・ウィークエンド",
+      "cover": "assets/covers/starboy.jpg",
+      "genre": null
+    },
+    {
+      "id": "luis-miguel",
+      "name": "Luis Miguel",
+      "cover": "assets/covers/romance.jpg",
+      "genre": null
+    },
+    {
+      "id": "aaron-may",
+      "name": "Aaron May",
+      "cover": "assets/covers/chase.jpg",
+      "genre": null
+    },
+    {
+      "id": "partynextdoor",
+      "name": "PARTYNEXTDOOR",
+      "cover": "assets/covers/partynextdoor-4-(p4).jpg",
+      "genre": null
+    },
+    {
+      "id": "drake",
+      "name": "Drake",
+      "cover": "assets/covers/take-care-(deluxe-version).jpg",
+      "genre": null
+    },
+    {
+      "id": "frank-ocean",
+      "name": "Frank Ocean",
+      "cover": "assets/covers/blonde.jpg",
+      "genre": null
+    },
+    {
+      "id": "arctic-monkeys",
+      "name": "Arctic Monkeys",
+      "cover": "assets/covers/am.jpg",
+      "genre": null
+    },
+    {
+      "id": "mf-doom",
+      "name": "MF DOOM",
+      "cover": "assets/covers/mm..food.jpg",
+      "genre": null
+    },
+    {
+      "id": "kendrick-lamar",
+      "name": "Kendrick Lamar",
+      "cover": "assets/covers/good-kid,-m.a.a.d-city-(deluxe).jpg",
+      "genre": null
+    },
+    {
+      "id": "brent-faiyaz",
+      "name": "Brent Faiyaz",
+      "cover": "assets/covers/poison-single.jpg",
+      "genre": null
+    },
+    {
+      "id": "a$ap-rocky",
+      "name": "A$ap Rocky",
+      "cover": "assets/covers/testing.jpg",
+      "genre": null
+    },
+    {
+      "id": "prince-&-the-revolution",
+      "name": "Prince & The Revolution",
+      "cover": "assets/covers/purple-rain.jpg",
+      "genre": null
+    },
+    {
+      "id": "dave,-tems",
+      "name": "Dave, Tems",
+      "cover": "assets/covers/the-boy-who-played-the-harp.jpg",
+      "genre": null
+    },
+    {
+      "id": "playboi-carti,-the-weeknd",
+      "name": "Playboi Carti, The Weeknd",
+      "cover": "assets/covers/music-sorry-4-da-wait.jpg",
+      "genre": null
+    },
+    {
+      "id": "joji",
+      "name": "Joji",
+      "cover": "assets/covers/ballads-1.jpg",
+      "genre": null
+    },
+    {
+      "id": "pinkpantheress",
+      "name": "PinkPantheress",
+      "cover": "assets/covers/fancy-some-more.jpg",
+      "genre": null
+    },
+    {
+      "id": "the-weeknd",
+      "name": "The Weeknd",
+      "cover": "assets/covers/trilogy.jpg",
+      "genre": null
+    },
+    {
+      "id": "isaiah-rashad",
+      "name": "Isaiah Rashad",
+      "cover": "assets/covers/the-sun's-tirade.jpg",
+      "genre": null
+    }
+  ],
+  "generated": "2026-09-09",
+  "totalSongs": 33,
+  "totalAlbums": 30,
+  "totalArtists": 25
+}

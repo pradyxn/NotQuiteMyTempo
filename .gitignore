@@ -1,0 +1,4 @@
+﻿Music/
+__pycache__/
+*.pyc
+extract_metadata.py

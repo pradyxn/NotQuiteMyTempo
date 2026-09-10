@@ -1,0 +1,610 @@
+/* Apple Music-Inspired Web Player - Responsive Styles */
+
+/* ===============================================
+   TABLET (768px - 1024px)
+   =============================================== */
+
+@media (max-width: 1024px) {
+    :root {
+        --sidebar-width: 220px;
+    }
+
+    .albums-grid {
+        grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+        gap: var(--spacing-md);
+    }
+
+    .hero-section {
+        height: 320px;
+    }
+
+    .hero-title {
+        font-size: 42px;
+    }
+
+    .view-title {
+        font-size: 40px;
+    }
+
+    .section-title {
+        font-size: 22px;
+    }
+}
+
+/* ===============================================
+   MOBILE (max-width: 768px)
+   =============================================== */
+
+@media (max-width: 768px) {
+    :root {
+        --player-height: 80px;
+        --topbar-height: 56px;
+    }
+
+    body {
+        grid-template-areas:
+            "main"
+            "player";
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr var(--player-height);
+    }
+
+    /* Hide sidebar by default on mobile */
+    .sidebar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: var(--player-height);
+        width: 280px;
+        z-index: var(--z-modal);
+        transform: translateX(-100%);
+        transition: transform var(--transition-medium) var(--spring-smooth);
+    }
+
+    .sidebar.open {
+        transform: translateX(0);
+    }
+
+    /* Mobile overlay when sidebar is open */
+    .sidebar-overlay {
+        position: fixed;
+        inset: 0;
+        background: rgba(0, 0, 0, 0.5);
+        z-index: calc(var(--z-modal) - 1);
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity var(--transition-fast);
+    }
+
+    .sidebar-overlay.visible {
+        opacity: 1;
+        pointer-events: auto;
+    }
+
+    /* Show mobile menu toggle */
+    .mobile-menu-toggle {
+        display: flex;
+    }
+
+    /* Top bar adjustments */
+    .top-bar {
+        padding: 0 var(--spacing-md);
+        gap: var(--spacing-md);
+    }
+
+    .search-container {
+        max-width: none;
+    }
+
+    /* Views */
+    .view {
+        padding: var(--spacing-lg);
+    }
+
+    .view-title {
+        font-size: 32px;
+        margin-bottom: var(--spacing-lg);
+    }
+
+    .section-title {
+        font-size: 20px;
+        margin-bottom: var(--spacing-md);
+    }
+
+    .content-section {
+        margin-bottom: var(--spacing-2xl);
+    }
+
+    /* Hero section */
+    .hero-section {
+        height: 280px;
+        margin-bottom: var(--spacing-2xl);
+    }
+
+    .hero-content {
+        padding: var(--spacing-lg);
+    }
+
+    .hero-title {
+        font-size: 32px;
+        letter-spacing: -0.5px;
+    }
+
+    .hero-subtitle {
+        font-size: 16px;
+    }
+
+    .hero-actions {
+        flex-wrap: wrap;
+    }
+
+    /* Albums grid */
+    .albums-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: var(--spacing-md);
+    }
+
+    .album-card:hover {
+        transform: none;
+    }
+
+    .album-card:active {
+        transform: scale(0.97);
+    }
+
+    /* Songs list */
+    .song-item {
+        grid-template-columns: 40px 1fr auto;
+        gap: var(--spacing-sm);
+        padding: var(--spacing-sm);
+    }
+
+    .song-artwork {
+        width: 40px;
+        height: 40px;
+    }
+
+    .song-title {
+        font-size: 14px;
+    }
+
+    .song-artist {
+        font-size: 13px;
+    }
+
+    .song-more {
+        display: none;
+    }
+
+    /* Global Player - Mobile Compact Mode */
+    .global-player {
+        grid-template-columns: 1fr auto;
+        grid-template-rows: auto auto;
+        gap: 0;
+        padding: var(--spacing-sm) var(--spacing-md);
+    }
+
+    .player-left {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        gap: var(--spacing-sm);
+    }
+
+    .player-artwork {
+        width: 48px;
+        height: 48px;
+    }
+
+    .player-title {
+        font-size: 13px;
+    }
+
+    .player-artist {
+        font-size: 12px;
+    }
+
+    .player-favorite {
+        display: none;
+    }
+
+    .player-center {
+        grid-column: 1 / 3;
+        grid-row: 2 / 3;
+        margin-top: var(--spacing-xs);
+        max-width: none;
+    }
+
+    .player-controls {
+        gap: var(--spacing-sm);
+    }
+
+    .player-control svg {
+        width: 18px;
+        height: 18px;
+    }
+
+    .btn-play-pause {
+        width: 36px;
+        height: 36px;
+    }
+
+    .btn-play-pause svg {
+        width: 16px;
+        height: 16px;
+    }
+
+    /* Hide shuffle and repeat on very small screens */
+    #btnShuffle,
+    #btnRepeat {
+        display: none;
+    }
+
+    .player-progress {
+        gap: var(--spacing-sm);
+    }
+
+    .time-current,
+    .time-duration {
+        font-size: 11px;
+        min-width: 32px;
+    }
+
+    .player-right {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+        gap: var(--spacing-xs);
+    }
+
+    /* Hide some player right controls on mobile */
+    #btnLyrics,
+    #btnQueue {
+        display: none;
+    }
+
+    .volume-slider-container {
+        display: none;
+    }
+
+    /* Side panels full width on mobile */
+    .queue-panel,
+    .lyrics-panel,
+    .device-panel {
+        width: 100%;
+        height: calc(100vh - var(--player-height));
+    }
+
+    /* Now Playing Modal */
+    .now-playing-content {
+        width: 95%;
+        padding: var(--spacing-xl);
+    }
+
+    .now-playing-title {
+        font-size: 24px;
+    }
+
+    .now-playing-artist {
+        font-size: 16px;
+    }
+
+    /* Context Menu */
+    .context-menu {
+        min-width: 200px;
+    }
+
+    /* Toast Container */
+    .toast-container {
+        bottom: calc(var(--player-height) + var(--spacing-sm));
+        right: var(--spacing-sm);
+        left: var(--spacing-sm);
+    }
+
+    .toast {
+        min-width: auto;
+        width: 100%;
+    }
+
+    /* Search Results */
+    .search-results {
+        padding: var(--spacing-lg);
+    }
+}
+
+/* ===============================================
+   SMALL MOBILE (max-width: 480px)
+   =============================================== */
+
+@media (max-width: 480px) {
+    .albums-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: var(--spacing-sm);
+    }
+
+    .album-info {
+        padding: 0;
+    }
+
+    .album-title {
+        font-size: 14px;
+    }
+
+    .album-artist {
+        font-size: 13px;
+    }
+
+    .btn-play {
+        width: 48px;
+        height: 48px;
+    }
+
+    .btn-play svg {
+        width: 20px;
+        height: 20px;
+    }
+
+    .hero-section {
+        height: 240px;
+    }
+
+    .hero-title {
+        font-size: 28px;
+    }
+
+    .hero-subtitle {
+        font-size: 14px;
+    }
+
+    .btn-primary,
+    .btn-secondary {
+        padding: 10px 24px;
+        font-size: 14px;
+    }
+}
+
+/* ===============================================
+   LARGE SCREENS (min-width: 1440px)
+   =============================================== */
+
+@media (min-width: 1440px) {
+    :root {
+        --sidebar-width: 260px;
+    }
+
+    .albums-grid {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+
+    .hero-section {
+        height: 480px;
+    }
+
+    .hero-title {
+        font-size: 64px;
+    }
+
+    .view-title {
+        font-size: 56px;
+    }
+}
+
+/* ===============================================
+   EXTRA LARGE SCREENS (min-width: 1920px)
+   =============================================== */
+
+@media (min-width: 1920px) {
+    :root {
+        --sidebar-width: 280px;
+    }
+
+    .view {
+        padding: var(--spacing-3xl) var(--spacing-3xl);
+    }
+
+    .albums-grid {
+        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+        gap: var(--spacing-xl);
+    }
+
+    .hero-section {
+        height: 560px;
+    }
+
+    .hero-title {
+        font-size: 72px;
+    }
+}
+
+/* ===============================================
+   LANDSCAPE MOBILE
+   =============================================== */
+
+@media (max-width: 768px) and (orientation: landscape) {
+    .hero-section {
+        height: 200px;
+    }
+
+    .hero-title {
+        font-size: 24px;
+    }
+
+    .view-title {
+        font-size: 28px;
+    }
+
+    .now-playing-modal {
+        overflow-y: auto;
+    }
+
+    .now-playing-content {
+        margin: var(--spacing-lg) auto;
+    }
+
+    .now-playing-artwork-container {
+        max-width: 280px;
+        margin: 0 auto var(--spacing-xl);
+    }
+}
+
+/* ===============================================
+   TOUCH DEVICE OPTIMIZATIONS
+   =============================================== */
+
+@media (hover: none) and (pointer: coarse) {
+    /* Increase touch targets */
+    .btn-icon {
+        min-width: 44px;
+        min-height: 44px;
+    }
+
+    .nav-link {
+        padding: var(--spacing-md) var(--spacing-lg);
+    }
+
+    /* Remove hover states since they stick on touch */
+    .album-card:hover {
+        transform: none;
+    }
+
+    .album-card:hover .album-artwork {
+        transform: none;
+    }
+
+    /* Always show play button on album cards */
+    .album-overlay {
+        opacity: 1;
+        background: rgba(0, 0, 0, 0.2);
+    }
+
+    .song-play-btn {
+        opacity: 1;
+    }
+
+    .song-favorite,
+    .song-more {
+        opacity: 1;
+    }
+
+    .queue-remove {
+        opacity: 1;
+    }
+
+    /* Remove magnetic effects on touch */
+    .magnetic-btn {
+        transform: none !important;
+    }
+
+    /* Disable hover animations */
+    .btn-icon:hover,
+    .nav-link:hover,
+    .song-item:hover,
+    .queue-item:hover,
+    .device-item:hover {
+        transform: none;
+    }
+}
+
+/* ===============================================
+   PRINT STYLES
+   =============================================== */
+
+@media print {
+    .sidebar,
+    .top-bar,
+    .global-player,
+    .queue-panel,
+    .lyrics-panel,
+    .device-panel,
+    .context-menu,
+    .toast-container,
+    .music-notes-container {
+        display: none !important;
+    }
+
+    body {
+        display: block;
+        height: auto;
+    }
+
+    .main-content {
+        overflow: visible;
+    }
+
+    .view {
+        display: block !important;
+        padding: 0;
+    }
+}
+
+/* ===============================================
+   MINI PLAYER MODE (MOBILE)
+   =============================================== */
+
+@media (max-width: 768px) {
+    .mini-player {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: var(--player-height);
+        background: var(--color-surface);
+        backdrop-filter: blur(40px);
+        border-top: 1px solid var(--color-border);
+        z-index: var(--z-fixed);
+        cursor: pointer;
+        transition: all var(--transition-fast);
+    }
+
+    .mini-player:active {
+        transform: scale(0.98);
+    }
+
+    .mini-player-content {
+        display: flex;
+        align-items: center;
+        padding: var(--spacing-sm) var(--spacing-md);
+        gap: var(--spacing-md);
+        height: 100%;
+    }
+
+    .mini-player-info {
+        flex: 1;
+        min-width: 0;
+    }
+
+    .mini-player-controls {
+        display: flex;
+        gap: var(--spacing-sm);
+    }
+}
+
+/* ===============================================
+   ACCESSIBILITY ENHANCEMENTS
+   =============================================== */
+
+@media (prefers-contrast: high) {
+    :root {
+        --color-border: rgba(255, 255, 255, 0.2);
+        --color-text-secondary: rgba(255, 255, 255, 0.85);
+    }
+
+    body.light-theme {
+        --color-border: rgba(0, 0, 0, 0.2);
+        --color-text-secondary: rgba(0, 0, 0, 0.85);
+    }
+
+    .btn-icon,
+    .nav-link,
+    .album-card,
+    .song-item {
+        border: 1px solid var(--color-border);
+    }
+}
+
+/* Focus visible for keyboard navigation */
+@media (prefers-reduced-motion: no-preference) {
+    :focus-visible {
+        outline: 2px solid var(--color-accent);
+        outline-offset: 2px;
+        border-radius: var(--radius-sm);
+    }
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Album Artwork Generator</title>
+    <style>
+        body { font-family: sans-serif; padding: 20px; }
+        button { padding: 10px 20px; font-size: 16px; cursor: pointer; }
+        #status { margin-top: 20px; color: green; }
+    </style>
+</head>
+<body>
+    <h1>Album Artwork Generator</h1>
+    <p>Click the button to generate placeholder album artwork images.</p>
+    <button onclick="generateArtwork()">Generate Album Artwork</button>
+    <div id="status"></div>
+
+    <script>
+        const albums = [
+            { name: 'tlop', color: '#f97316' },
+            { name: 'marvin-gaye', color: '#dc2626' },
+            { name: 'days-before-rodeo', color: '#7c3aed' },
+            { name: 'ye', color: '#f59e0b' },
+            { name: 'justice', color: '#ec4899' },
+            { name: 'invincible', color: '#3b82f6' },
+            { name: 'graduation', color: '#a855f7' },
+            { name: 'her-loss', color: '#0891b2' },
+            { name: 'starboy', color: '#ef4444' },
+            { name: 'romances', color: '#db2777' },
+            { name: 'chase', color: '#10b981' },
+            { name: 'pnd2', color: '#8b5cf6' },
+            { name: 'rodeo', color: '#d97706' },
+            { name: 'take-care', color: '#0ea5e9' },
+            { name: 'blonde', color: '#f97316' },
+            { name: 'am', color: '#171717' },
+            { name: 'mmfood', color: '#dc2626' },
+            { name: 'channel-orange', color: '#fb923c' },
+            { name: 'gkmc', color: '#dc2626' },
+            { name: 'wasteland', color: '#64748b' },
+            { name: 'testing', color: '#991b1b' },
+            { name: 'purple-rain', color: '#7c3aed' },
+            { name: 'dave', color: '#0ea5e9' },
+            { name: 'wlr', color: '#dc2626' },
+            { name: 'ballads1', color: '#6366f1' },
+            { name: 'heaven-knows', color: '#ec4899' },
+            { name: 'pnd1', color: '#14b8a6' },
+            { name: 'hob', color: '#1f2937' },
+            { name: 'my-vision', color: '#22c55e' },
+            { name: 'tkaa', color: '#84cc16' },
+            { name: 'favorites', color: '#fa2d48' },
+            { name: 'chill', color: '#3b82f6' },
+            { name: 'workout', color: '#ef4444' },
+            { name: 'late-night', color: '#6366f1' },
+            { name: 'coding', color: '#10b981' },
+            { name: 'playlist-default', color: '#64748b' }
+        ];
+
+        function generateArtwork() {
+            const status = document.getElementById('status');
+            status.innerHTML = '<p>Generating artwork...</p>';
+
+            albums.forEach((album, index) => {
+                setTimeout(() => {
+                    const canvas = document.createElement('canvas');
+                    canvas.width = 512;
+                    canvas.height = 512;
+                    const ctx = canvas.getContext('2d');
+
+                    // Gradient background
+                    const gradient = ctx.createLinearGradient(0, 0, 512, 512);
+                    gradient.addColorStop(0, album.color);
+                    gradient.addColorStop(1, adjustBrightness(album.color, -30));
+                    ctx.fillStyle = gradient;
+                    ctx.fillRect(0, 0, 512, 512);
+
+                    // Album name
+                    ctx.fillStyle = 'rgba(255, 255, 255, 0.9)';
+                    ctx.font = 'bold 32px sans-serif';
+                    ctx.textAlign = 'center';
+                    ctx.textBaseline = 'middle';
+
+                    const text = album.name.replace(/-/g, ' ').toUpperCase();
+                    ctx.fillText(text, 256, 256);
+
+                    // Download
+                    canvas.toBlob(blob => {
+                        const url = URL.createObjectURL(blob);
+                        const a = document.createElement('a');
+                        a.href = url;
+                        a.download = `${album.name}.jpg`;
+                        a.click();
+                        URL.revokeObjectURL(url);
+                    }, 'image/jpeg', 0.9);
+
+                    if (index === albums.length - 1) {
+                        status.innerHTML = '<p>✅ All artwork generated! Check your downloads folder.</p>';
+                    }
+                }, index * 100);
+            });
+        }
+
+        function adjustBrightness(color, amount) {
+            const num = parseInt(color.replace('#', ''), 16);
+            const r = Math.max(0, Math.min(255, (num >> 16) + amount));
+            const g = Math.max(0, Math.min(255, ((num >> 8) & 0x00FF) + amount));
+            const b = Math.max(0, Math.min(255, (num & 0x0000FF) + amount));
+            return '#' + ((r << 16) | (g << 8) | b).toString(16).padStart(6, '0');
+        }
+    </script>
+</body>
+</html>
