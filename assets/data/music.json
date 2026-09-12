@@ -11,7 +11,7 @@
       "trackNumber": 1,
       "discNumber": null,
       "duration": 229,
-      "audio": "Music/All The Love - Kanye West Andre Troutman.mp3",
+      "audio": "/music/All The Love - Kanye West Andre Troutman.mp3",
       "cover": "assets/covers/bully.jpg"
     },
     {
@@ -25,7 +25,7 @@
       "trackNumber": null,
       "discNumber": null,
       "duration": 256,
-      "audio": "Music/Distant Lover (Remastered 2003) - Marvin Gaye.mp3",
+      "audio": "/music/Distant Lover (Remastered 2003) - Marvin Gaye.mp3",
       "cover": "assets/covers/let's-get-it-on-(remastered-2003).jpg"
     },
     {
@@ -39,7 +39,7 @@
       "trackNumber": null,
       "discNumber": null,
       "duration": 208,
-      "audio": "Music/Drugs You Should Try It - Travis Scott.mp3",
+      "audio": "/music/Drugs You Should Try It - Travis Scott.mp3",
       "cover": "assets/covers/days-before-rodeo.jpg"
     },
     {
@@ -53,7 +53,7 @@
       "trackNumber": null,
       "discNumber": null,
       "duration": 271,
-      "audio": "Music/Ghost Town (feat. PARTYNEXTDOOR) - Kanye West.mp3",
+      "audio": "/music/Ghost Town (feat. PARTYNEXTDOOR) - Kanye West.mp3",
       "cover": "assets/covers/ye.jpg"
     },
     {
@@ -67,7 +67,7 @@
       "trackNumber": null,
       "discNumber": null,
       "duration": 262,
-      "audio": "Music/Heartbreaker - Justin Bieber.mp3",
+      "audio": "/music/Heartbreaker - Justin Bieber.mp3",
       "cover": "assets/covers/journals.jpg"
     },
     {
@@ -81,7 +81,7 @@
       "trackNumber": null,
       "discNumber": null,
       "duration": 288,
-      "audio": "Music/Heaven Can Wait - Michael Jackson.mp3",
+      "audio": "/music/Heaven Can Wait - Michael Jackson.mp3",
       "cover": "assets/covers/invincible.jpg"
     },
     {
@@ -95,7 +95,7 @@
       "trackNumber": null,
       "discNumber": null,
       "duration": 203,
-      "audio": "Music/Homecoming (feat. Chris Martin) - Kanye West.mp3",
+      "audio": "/music/Homecoming (feat. Chris Martin) - Kanye West.mp3",
       "cover": "assets/covers/graduation.jpg"
     },
     {
@@ -109,7 +109,7 @@
       "trackNumber": null,
       "discNumber": null,
       "duration": 399,
-      "audio": "Music/Hours In Silence - Drake, 21 Savage.mp3",
+      "audio": "/music/Hours In Silence - Drake, 21 Savage.mp3",
       "cover": "assets/covers/her-loss.jpg"
     },
     {
@@ -123,7 +123,7 @@
       "trackNumber": null,
       "discNumber": null,
       "duration": 269,
-      "audio": "Music/I Feel It Coming (feat. Daft Punk) - The Weeknd.mp3",
+      "audio": "/music/I Feel It Coming (feat. Daft Punk) - The Weeknd.mp3",
       "cover": "assets/covers/starboy.jpg"
     },
     {
@@ -137,7 +137,7 @@
       "trackNumber": null,
       "discNumber": null,
       "duration": 226,
-      "audio": "Music/La Mentira - Luis Miguel.mp3",
+      "audio": "/music/La Mentira - Luis Miguel.mp3",
       "cover": "assets/covers/romance.jpg"
     },
     {
@@ -151,7 +151,7 @@
       "trackNumber": null,
       "discNumber": null,
       "duration": 176,
-      "audio": "Music/Let Go - Aaron May.mp3",
+      "audio": "/music/Let Go - Aaron May.mp3",
       "cover": "assets/covers/chase.jpg"
     },
     {
@@ -165,7 +165,7 @@
       "trackNumber": null,
       "discNumber": null,
       "duration": 168,
-      "audio": "Music/M a k e  I t  T o  T h e  M o r n i n g - PARTYNEXTDOOR.mp3",
+      "audio": "/music/M a k e  I t  T o  T h e  M o r n i n g - PARTYNEXTDOOR.mp3",
       "cover": "assets/covers/partynextdoor-4-(p4).jpg"
     },
     {
@@ -179,7 +179,7 @@
       "trackNumber": null,
       "discNumber": null,
       "duration": 349,
-      "audio": "Music/Maria I'm Drunk (feat. Justin Bieber & Young Thug) - Travis Scott.mp3",
+      "audio": "/music/Maria I'm Drunk (feat. Justin Bieber & Young Thug) - Travis Scott.mp3",
       "cover": "assets/covers/rodeo.jpg"
     },
     {
@@ -193,7 +193,7 @@
       "trackNumber": null,
       "discNumber": null,
       "duration": 347,
-      "audio": "Music/Marvins Room - Drake.mp3",
+      "audio": "/music/Marvins Room - Drake.mp3",
       "cover": "assets/covers/take-care-(deluxe-version).jpg"
     },
     {
@@ -207,7 +207,7 @@
       "trackNumber": null,
       "discNumber": null,
       "duration": 307,
-      "audio": "Music/Nights - Frank Ocean.mp3",
+      "audio": "/music/Nights - Frank Ocean.mp3",
       "cover": "assets/covers/blonde.jpg"
     },
     {
@@ -221,7 +221,7 @@
       "trackNumber": null,
       "discNumber": null,
       "duration": 243,
-      "audio": "Music/No. 1 Party Anthem - Arctic Monkeys.mp3",
+      "audio": "/music/No. 1 Party Anthem - Arctic Monkeys.mp3",
       "cover": "assets/covers/am.jpg"
     },
     {
@@ -235,7 +235,7 @@
       "trackNumber": null,
       "discNumber": null,
       "duration": 258,
-      "audio": "Music/One Beer - MF DOOM.mp3",
+      "audio": "/music/One Beer - MF DOOM.mp3",
       "cover": "assets/covers/mm..food.jpg"
     },
     {
@@ -249,7 +249,7 @@
       "trackNumber": null,
       "discNumber": null,
       "duration": 268,
-      "audio": "Music/Pink Matter (feat. André 3000) - Frank Ocean.mp3",
+      "audio": "/music/Pink Matter (feat. André 3000) - Frank Ocean.mp3",
       "cover": "assets/covers/channel-orange.jpg"
     },
     {
@@ -263,7 +263,7 @@
       "trackNumber": null,
       "discNumber": null,
       "duration": 300,
-      "audio": "Music/Poetic Justice (feat. Drake) - Kendrick Lamar.mp3",
+      "audio": "/music/Poetic Justice (feat. Drake) - Kendrick Lamar.mp3",
       "cover": "assets/covers/good-kid,-m.a.a.d-city-(deluxe).jpg"
     },
     {
@@ -277,7 +277,7 @@
       "trackNumber": null,
       "discNumber": null,
       "duration": 305,
-      "audio": "Music/Poison - Brent Faiyaz.mp3",
+      "audio": "/music/Poison - Brent Faiyaz.mp3",
       "cover": "assets/covers/poison-single.jpg"
     },
     {
@@ -291,7 +291,7 @@
       "trackNumber": 1,
       "discNumber": null,
       "duration": 205,
-      "audio": "Music/Praise The Lord da Shine- Asap Rocky.mp3",
+      "audio": "/music/Praise The Lord da Shine- Asap Rocky.mp3",
       "cover": "assets/covers/testing.jpg"
     },
     {
@@ -305,7 +305,7 @@
       "trackNumber": null,
       "discNumber": null,
       "duration": 521,
-      "audio": "Music/Purple Rain - Prince & The Revolution.mp3",
+      "audio": "/music/Purple Rain - Prince & The Revolution.mp3",
       "cover": "assets/covers/purple-rain.jpg"
     },
     {
@@ -319,7 +319,7 @@
       "trackNumber": null,
       "discNumber": null,
       "duration": 219,
-      "audio": "Music/Raindance - Dave, Tems.mp3",
+      "audio": "/music/Raindance - Dave, Tems.mp3",
       "cover": "assets/covers/the-boy-who-played-the-harp.jpg"
     },
     {
@@ -333,7 +333,7 @@
       "trackNumber": null,
       "discNumber": null,
       "duration": 209,
-      "audio": "Music/RATHER LIE - Playboi Carti, The Weeknd.mp3",
+      "audio": "/music/RATHER LIE - Playboi Carti, The Weeknd.mp3",
       "cover": "assets/covers/music-sorry-4-da-wait.jpg"
     },
     {
@@ -347,7 +347,7 @@
       "trackNumber": null,
       "discNumber": null,
       "duration": 209,
-      "audio": "Music/SLOW DANCING IN THE DARK - Joji.mp3",
+      "audio": "/music/SLOW DANCING IN THE DARK - Joji.mp3",
       "cover": "assets/covers/ballads-1.jpg"
     },
     {
@@ -361,7 +361,7 @@
       "trackNumber": null,
       "discNumber": null,
       "duration": 177,
-      "audio": "Music/Stateside (with Zara Larsson) - PinkPantheress.mp3",
+      "audio": "/music/Stateside (with Zara Larsson) - PinkPantheress.mp3",
       "cover": "assets/covers/fancy-some-more.jpg"
     },
     {
@@ -375,7 +375,7 @@
       "trackNumber": null,
       "discNumber": null,
       "duration": 123,
-      "audio": "Music/TBH - PARTYNEXTDOOR.mp3",
+      "audio": "/music/TBH - PARTYNEXTDOOR.mp3",
       "cover": "assets/covers/partynextdoor.jpg"
     },
     {
@@ -389,7 +389,7 @@
       "trackNumber": null,
       "discNumber": null,
       "duration": 459,
-      "audio": "Music/The Party & The After Party - The Weeknd.mp3",
+      "audio": "/music/The Party & The After Party - The Weeknd.mp3",
       "cover": "assets/covers/trilogy.jpg"
     },
     {
@@ -403,7 +403,7 @@
       "trackNumber": null,
       "discNumber": null,
       "duration": 321,
-      "audio": "Music/The Real Her (feat. Lil Wayne & Andre 3000) - Drake.mp3",
+      "audio": "/music/The Real Her (feat. Lil Wayne & Andre 3000) - Drake.mp3",
       "cover": "assets/covers/take-care-(deluxe-version).jpg"
     },
     {
@@ -417,7 +417,7 @@
       "trackNumber": null,
       "discNumber": null,
       "duration": 280,
-      "audio": "Music/Trust Issues - Drake.mp3",
+      "audio": "/music/Trust Issues - Drake.mp3",
       "cover": "assets/covers/care-package.jpg"
     },
     {
@@ -431,7 +431,7 @@
       "trackNumber": 1,
       "discNumber": null,
       "duration": 330,
-      "audio": "Music/Wats Wrong feat Zacari Kendrick Lamar - Isaiah Rashad.mp3",
+      "audio": "/music/Wats Wrong feat Zacari Kendrick Lamar - Isaiah Rashad.mp3",
       "cover": "assets/covers/the-sun's-tirade.jpg"
     },
     {
@@ -445,7 +445,7 @@
       "trackNumber": null,
       "discNumber": null,
       "duration": 248,
-      "audio": "Music/White Ferrari - Frank Ocean.mp3",
+      "audio": "/music/White Ferrari - Frank Ocean.mp3",
       "cover": "assets/covers/blonde.jpg"
     },
     {
@@ -459,7 +459,7 @@
       "trackNumber": null,
       "discNumber": null,
       "duration": 323,
-      "audio": "Music/Wicked Games - The Weeknd.mp3",
+      "audio": "/music/Wicked Games - The Weeknd.mp3",
       "cover": "assets/covers/trilogy.jpg"
     }
   ],
